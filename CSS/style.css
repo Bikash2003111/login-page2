@@ -1,0 +1,54 @@
+#pera-1{
+    font-size: 20px;
+    color:aquamarine;
+}
+#plodo {
+    
+    width: auto;
+    border: 15px solid rgb(210, 80, 236);
+    padding: 50px;
+    margin: 20px;
+    box-align: center;}
+    #admin-image{
+        padding: 20px;
+    }
+
+    #admin-box{
+        background-color:rgb(201, 154, 201);
+        color: rgb(8, 235, 197);
+        width: 80% ;
+        text-align: center;
+        margin: auto;
+        border-width: 4px;
+        border-style: solid;
+        border-color: blueviolet;
+        border-radius: 30px;
+        padding: 25px;
+
+
+    }
+    input,label{ display: block;
+              width: 90%; margin: auto;
+              padding: 10px;
+    }
+    input{ background-color:transparent;
+        color: black;
+        border: 1px solid rgb(63, 5, 97);
+    }
+    label{font-size: 20px;
+    }
+    
+    p a{text-decoration: none;
+    color: rgb(76, 79, 250);
+text-transform: capitalize;}
+input::placeholder{background-color: rgb(228, 236, 234);
+    text-align: center;
+    padding: 40px;
+    
+    color:rgba(36, 179, 189, 0.733)
+}
+input[type="submit"]{border:1px solid blueviolet;
+    margin: 35px auto 10px;
+       width: auto;}
+
+

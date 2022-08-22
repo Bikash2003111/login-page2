@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" href="CSS/register.css" />
+        <title>Register Page</title>
+    </head>
+    <body>
+        <div class="admin-box" style="text-align:center;">
+            <img src="image/register.fil04.png" alt="Register Image" width="200px"/>
+            <h1 style="color:rgb(15, 104, 238) ;"><B style="border:2;">Register Now</B></h1>
+            
+                <form>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" required placeholder="Inter your first name"/><br>
+                <Label for="lname">Last Name:</Label><br>
+                <input type="text" id="lname" name="lname" required placeholder="Inter your last name"/><br/>
+                <label for="email">Inter Your Email:</label><br>
+                <input type="email" name="email" required placeholder="example03@gmail.com"/><br/>
+                <label for="number">Inter Your Phone Number:</label><br>
+                <input type="number" min="11"required placeholder="01823456789"/><br/>
+                <label for="Birthday time">Date of Birth</label><br>
+                <input type="date" min="2000-01-01"><br>
+                <label for="Gender">Choose a Gender:</label><br>
+                <select id="Gender" name="GEnder">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Custom">Custom</option>
+            </select><br>
+            <label for="Blood_group">Choose your Blood group</label><br>
+            <select id="blood_group" name="blood group">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O-</option>
+                <option value="O-">O-</option>
+              </select><br>
+              <label for="Password">Password</label><br>
+              <input type="password" id="password" name="Password" required placeholder="Inter Your Password"/><br>
+             
+                <input type="checkbox"  name="not robot" value="robot">
+                <label id="checkbox" for="not robot"> I am not a robot</label><br>
+                <input id="submit" type="submit" value="Submit"/>
+                
+
+                
+
+
+            </form>
+
+           
+
+        </div>
+    </body>
+</html>

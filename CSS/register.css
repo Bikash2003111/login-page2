@@ -1,0 +1,32 @@
+input{text-align: center;}
+body{background-color: paleturquoise;}
+.admin-box{
+    background-color: antiquewhite;
+    width: 60%;
+    margin:10% auto 28%;
+    border: 10px solid black;
+    border-radius: 35px;
+    color: black;
+    padding: 10px;}
+label{font-size: 20px;}
+Input{background-color: rgb(160, 221, 170);
+    color: blue;
+    border: 1px solid red;
+}
+#Gender{background-color:rgb(130, 255, 80);
+    border: 2px;
+    border-style:dotted;
+    border-color: rgb(0, 110, 255);
+}
+#blood_group{background-color:rgb(179, 255, 80);
+    border: 2px dotted blue;
+}
+#checkbox{color: red;}
+#submit:hover{
+    background-color:green;
+}
+#submit{background-color: yellow;
+    transition: ease-in-out 0.2s;
+}
+#Gender:hover{background-color: brown;}
+#blood_group:hover{background-color: brown;}

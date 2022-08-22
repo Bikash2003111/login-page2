@@ -1,0 +1,43 @@
+*{text-align: center;}
+body{background-color: 
+    rgba(168, 212, 255, 0.863);
+    color:black;
+     padding:10px; }
+     #plodo-box image{padding: 40px 30px 20px;}
+     #plodo-box{background-color: blanchedalmond;
+    width: 65%;
+    margin: auto;
+    border-width: 3px;
+    border-style: double;
+    border-color: Tomato;
+    padding: 25px;
+     }  
+     #plodo-box h1{font-size: 30px;
+    text-transform: uppercase;}  
+    input,label{display: block;
+    width:auto; margin:auto;
+    padding: 2px;
+     } 
+     label{padding:1%;}
+     input{ background-color: transparent;
+    color: rgba(0, 0, 0, 0.781);
+    border:5px solid blanchedalmond;
+    }
+    label{font-size: 20px;}
+    p a{text-decoration: none;
+       background-color:blue;
+        color: red;
+          }
+          input::placeholder{background-color: greenyellow;
+                        color: darkblue;}
+                        #reset{background-color: red;
+                        color:aliceblue;                        
+                    }
+  #reset:hover{background-color: green;
+  transition: ease-in-out 0.3s; }
+  #sms-box{text-align: left;
+    background-color:aqua;
+    border:1px dashed purple;
+  }
+  a:hover{background-color:transparent;}
+    
